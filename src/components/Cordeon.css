@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.accordeonGlobal{
+  width: 300px;
+  margin-left: 30rem;
+  margin-top: 2rem;
+}
+
+.contenidoAcordeon{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.infoAcordeon{
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.infoAcordeon-active{
+  max-height: 300px;
+}
+
+.textoAcordeon{
+  border: 1px solid black;
+}

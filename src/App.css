@@ -1,0 +1,9 @@
+.elemento {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease; /* Ajusta la duración y el efecto aquí */
+  }
+  
+  .elemento.active {
+    max-height: 300px; /* Ajusta la altura máxima deseada */
+  }
