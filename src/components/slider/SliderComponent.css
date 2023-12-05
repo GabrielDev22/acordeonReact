@@ -1,0 +1,25 @@
+.contenedorSlider{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.image-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.botonSlider{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}

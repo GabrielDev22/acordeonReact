@@ -1,0 +1,11 @@
+.propSpan{
+    display: 'inline-block';
+    height: '1em';
+    width: '1em';
+    vertical-align: 'middle';
+    margin-left: '0.3em';
+    margin-bottom: '0.08em';
+    background-size: 'contain';
+    background-repeat: 'no-repeat';
+    background-image: 'url(https://mui.com/static/x/pro.svg)';
+}
